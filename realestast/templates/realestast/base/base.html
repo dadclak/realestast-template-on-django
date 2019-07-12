@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "realestast/base/head.html" %}
+<body>
+    <div id="page">
+        {% include "realestast/base/header.html" %}
+        {% block content %}
+        {% endblock %}
+        {% include "realestast/base/footer.html" %}
+    </div>
+    {% include "realestast/base/js.html" %}
+</body>
+</html>
